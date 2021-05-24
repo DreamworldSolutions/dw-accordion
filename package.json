@@ -1,0 +1,37 @@
+{
+  "name": "@dreamworld/dw-accordion",
+  "version": "0.0.0-development",
+  "description": "A light weight accordion web component.",
+  "main": "dw-accordion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DreamworldSolutions/dw-accordion.git"
+  },
+  "author": "Nirmal Baldaniya",
+  "license": "MIT",
+  "dependencies": {
+    "@dreamworld/dw-icon": "^2.1.0",
+    "@dreamworld/pwa-helpers": "^1.8.0",
+    "@webcomponents/webcomponentsjs": "2.2.10"
+  },
+  "devDependencies": {
+    "semantic-release": "17.0.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "master",
+      {
+        "name": "feature/*",
+        "prerelease": "${name.replace(/^feature\\//g,\"\")}",
+        "channel": "${name.replace(/^feature\\//g,\"\")}"
+      }
+    ]
+  }
+}
