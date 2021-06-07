@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element'
-import '../dw-accordion';
+import './demo-accordion';
 
 class DemoElement extends LitElement {
   static get styles() {
@@ -14,6 +14,7 @@ class DemoElement extends LitElement {
   render() {
     return html`
       <h2>dw-accordion Demo:</h2>
+      <demo-accordion></demo-accordion>
     `
   }
 }
