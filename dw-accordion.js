@@ -2,6 +2,7 @@ import { html, css } from 'lit-element';
 import { LitElement } from '@dreamworld/pwa-helpers/lit-element.js';
 import { repeat } from 'lit-html/directives/repeat.js';
 import '@dreamworld/dw-icon/dw-icon';
+import '@dreamworld/dw-ripple';
 export class DwAccordion extends LitElement {
   constructor() {
     super();
@@ -28,9 +29,11 @@ export class DwAccordion extends LitElement {
 
       .accordion-header {
         align-items: center;
+        box-sizing: var(--dw-accordion-header-box-sizing, border-box);
         cursor: pointer;
         display: flex;
-        padding: var(--dw-accordion-header-padding, 8px 16px);
+        padding: var(--dw-accordion-header-padding, 16px);
+        position: relative;
       }
       
       .accordion_header__title {
@@ -38,8 +41,9 @@ export class DwAccordion extends LitElement {
       }
 
       .accordion-content {
-        padding: var(--dw-accordion-content-padding, 8px 16px);
+        box-sizing: var(--dw-accordion-content-box-sizing, border-box);
         display: none;
+        padding: var(--dw-accordion-content-padding, 16px);
       }
 
       .item[selected] .accordion-content {
@@ -94,6 +98,7 @@ export class DwAccordion extends LitElement {
               class="accordion-header">
               <div class="accordion_header__title">${this.headerTemplate(item)}</div>
               <dw-icon name=${this._selectedItems[index] ? 'keyboard_arrow_up' : 'keyboard_arrow_down'}></dw-icon>
+              <dw-ripple></dw-ripple>
             </div>
             ${this._selectedItems[index] || this._renderedItems[index] ? html`
               <div
