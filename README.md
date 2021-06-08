@@ -28,3 +28,6 @@
 - `--dw-accordion-item-divider-color`: Divider color of each item. Default is `rgba(0, 0, 0, 0.10)`.
 - `--dw-accordion-header-padding`: Padding of header of each item. Default is `8px 16px`.
 - `--dw-accordion-content-padding`: Padding of content of each item. Default is `8px 16px`.
+
+### Methods
+- `collapseAll`: Collapses all the expanded items.

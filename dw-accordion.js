@@ -113,6 +113,13 @@ export class DwAccordion extends LitElement {
   }
 
   /**
+   * Collapses all the items.
+   */
+  collapseAll() {
+    this._selectedItems = {};
+  }
+
+  /**
    * Updates `_selectedItems` & `_renderedItems`.
    * @param {Number} index Index of the item from which click is triggered.
    * @private
