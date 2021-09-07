@@ -24,9 +24,9 @@
     js-tokens "^4.0.0"
 
 "@dreamworld/dw-icon@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@dreamworld/dw-icon/-/dw-icon-2.1.0.tgz#2d7061ad6b077514c7970728f296e4f308946e5c"
-  integrity sha512-t/NOOGDKOyS6+Oi8MF4q2OsNqMGipMjlgpO9fgG4TFpel48zd/k6THLTlxpxYzmYyLF7WK2wOzrFVS1kT52U2A==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@dreamworld/dw-icon/-/dw-icon-2.1.1.tgz#3b63c9a696e8e9080aba4b13f93068c93004524f"
+  integrity sha512-R34QUIRS1hBTWpPYsOCLtWeNh0k09ReYEdoItHfg01LytyH+McUvjqztsM1z3gs6/1LtatHtlXB7/0rIeQvTTA==
   dependencies:
     "@dreamworld/pwa-helpers" "^1.7.1"
     "@material/mwc-icon" "0.20.0"
@@ -41,9 +41,9 @@
     lit-element "^2.2.0"
 
 "@dreamworld/pwa-helpers@^1.7.1", "@dreamworld/pwa-helpers@^1.8.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@dreamworld/pwa-helpers/-/pwa-helpers-1.11.0.tgz#d3cff515e26631b04bf14c43affb9f590e914697"
-  integrity sha512-3mXD7FfbgKInoAlIJo9zJqOfsPBM8/Lbg2OYNDtAMjTnjesLh0TtsoHjrTqqpGIow/mA/e3leAO8AV3yueDfhQ==
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/@dreamworld/pwa-helpers/-/pwa-helpers-1.11.1.tgz#6ac8d465ff4e41a294c9a83bc9244f6397d7f197"
+  integrity sha512-WpXKkTNAiVSao2O+lAhGAku0Ri0ABlMy5sz/EgZNZNlwYCJ+2swgyFdlpijlf9G8RG/L7WzlPzb1dzGWbU1fkQ==
   dependencies:
     bowser "^2.8.1"
     lit-element "^2.2.1"
@@ -3496,9 +3496,9 @@ tslib@^1.9.3:
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tslib@^2.0.1:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
-  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
