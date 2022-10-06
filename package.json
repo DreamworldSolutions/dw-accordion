@@ -15,7 +15,7 @@
   "dependencies": {
     "@dreamworld/dw-icon": "^2.1.0",
     "@dreamworld/dw-ripple": "^2.2.2",
-    "@dreamworld/pwa-helpers": "^1.8.0",
+    "@dreamworld/pwa-helpers": "^1.13.1",
     "@webcomponents/webcomponentsjs": "2.2.10"
   },
   "devDependencies": {

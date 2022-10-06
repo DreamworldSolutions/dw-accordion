@@ -1,5 +1,4 @@
-import { html, css } from 'lit-element';
-import { LitElement } from '@dreamworld/pwa-helpers/lit-element.js';
+import { LitElement, html, css } from '@dreamworld/pwa-helpers/lit.js';
 import { repeat } from 'lit-html/directives/repeat.js';
 import '@dreamworld/dw-icon/dw-icon';
 import '@dreamworld/dw-ripple';
