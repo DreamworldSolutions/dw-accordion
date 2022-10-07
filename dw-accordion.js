@@ -1,5 +1,5 @@
 import { LitElement, html, css } from '@dreamworld/pwa-helpers/lit.js';
-import { repeat } from 'lit-html/directives/repeat.js';
+import { repeat } from 'lit/directives/repeat.js';
 import '@dreamworld/dw-icon/dw-icon';
 import '@dreamworld/dw-ripple';
 export class DwAccordion extends LitElement {
