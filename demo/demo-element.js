@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element'
+import { LitElement, html, css } from '@dreamworld/pwa-helpers/lit.js';
 import './demo-accordion';
 
 class DemoElement extends LitElement {
